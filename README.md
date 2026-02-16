@@ -91,16 +91,12 @@ Client → Controller → Service → Repository → Database
 
 ## 📊 System Architecture Diagram
 
-📌 Upload architecture image from your PC and link below:
-
-```
-/docs/system-architecture.png
-```
+DATAFLOEDIAGRAMGITHUBSEARCH.png
 
 Then display in README:
 
 ```
-![System Architecture](docs/system-architecture.png)
+![System Architecture](DATAFLOEDIAGRAMGITHUBSEARCH.png)
 ```
 
 ---
