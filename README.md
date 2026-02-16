@@ -91,12 +91,12 @@ Client → Controller → Service → Repository → Database
 
 ## 📊 System Architecture Diagram
 
-DATAFLOEDIAGRAMGITHUBSEARCH.png
+(/doc/SYSTEMARCHGITHUBSEARCHER.png
 
 Then display in README:
 
 ```
-![System Architecture](DATAFLOEDIAGRAMGITHUBSEARCH.png)
+![System Architecture](/doc/SYSTEMARCHGITHUBSEARCHER.png)
 ```
 
 ---
@@ -120,13 +120,13 @@ This shows how data moves inside the system.
 Upload DFD image from your PC:
 
 ```
-/docs/data-flow-diagram.png
+/doc/DATAFLOEDIAGRAMGITHUBSEARCH.png
 ```
 
 Display in README:
 
 ```
-![Data Flow Diagram](docs/data-flow-diagram.png)
+![Data Flow Diagram](/doc/DATAFLOEDIAGRAMGITHUBSEARCH.png)
 ```
 
 ---
