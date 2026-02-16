@@ -1,31 +1,27 @@
 # 🚀 Spring Boot Backend Assignment Project
 
 ## 📌 Project Overview
-
 This project is developed as part of a backend assignment following **industry-level best practices** using **Java + Spring Boot**.
 The application demonstrates REST API development, layered architecture, clean code structure, and proper testing readiness.
-
 The goal of this project is to build a **production-style backend service** with proper separation of concerns, scalable design, and maintainable code.
 
 ---
 
 ## ✅ Assignment Guidelines Followed
-
-✔ Clean layered architecture (Controller → Service → Repository → Entity)
-✔ RESTful API design principles
-✔ Error-free and runnable project structure
-✔ Proper request/response handling
-✔ DTO usage (if applicable)
-✔ Exception handling structure
-✔ Clean code and naming conventions
-✔ Logical business implementation
-✔ Ready for unit testing with JUnit
-✔ Git version control and documentation
+✔ Clean layered architecture (Controller → Service → Repository → Entity)  
+✔ RESTful API design principles  
+✔ Error-free and runnable project structure  
+✔ Proper request/response handling  
+✔ DTO usage (if applicable)  
+✔ Exception handling structure  
+✔ Clean code and naming conventions  
+✔ Logical business implementation  
+✔ Ready for unit testing with JUnit  
+✔ Git version control and documentation  
 
 ---
 
 ## 🏗️ Tech Stack
-
 * Java
 * Spring Boot
 * Spring Web
@@ -35,52 +31,30 @@ The goal of this project is to build a **production-style backend service** with
 * Maven
 * Postman (API testing)
 * Git & GitHub
-
----
-
-## 📂 Project Structure
-
-```
-src/main/java/com/project
-
-├── controller       → Handles HTTP requests
-├── service          → Business logic
-├── repository       → Database interaction
-├── entity           → Database models
-├── dto              → Request/Response objects
-└── exception        → Error handling
-```
-
 ---
 
 ## ⚙️ API Endpoints
 
 ### 🔹 Create Resource
-
-POST /api/resource
+`POST /api/resource`
 
 ### 🔹 Get Resource
-
-GET /api/resource/{id}
+`GET /api/resource/{id}`
 
 ### 🔹 Get All Resources
-
-GET /api/resource
+`GET /api/resource`
 
 *(Modify endpoint names according to your project)*
 
 ---
 
 ## 🧠 System Architecture
-
 This project follows a **Layered Architecture**:
+---
 
-```
-Client → Controller → Service → Repository → Database
-```
+## 📂 Project Structure
 
 ### Flow Explanation
-
 1. Client sends request
 2. Controller receives request
 3. Service processes business logic
@@ -91,22 +65,14 @@ Client → Controller → Service → Repository → Database
 
 ## 📊 System Architecture Diagram
 
-(/doc/SYSTEMARCHGITHUBSEARCHER.png
-
-Then display in README:
-
-```
-![System Architecture](/doc/SYSTEMARCHGITHUBSEARCHER.png)
-```
+![System Architecture](doc/SYSTEMARCHGITHUBSEARCHER.png)
 
 ---
 
 ## 🔄 Data Flow Diagram (DFD)
-
 This shows how data moves inside the system.
 
 ### Data Flow Steps
-
 1. User sends API request
 2. Controller validates request
 3. Service processes logic
@@ -117,58 +83,37 @@ This shows how data moves inside the system.
 
 ## 📊 Data Flow Diagram Image
 
-Upload DFD image from your PC:
-
-```
-/doc/DATAFLOEDIAGRAMGITHUBSEARCH.png
-```
-
-Display in README:
-
-```
-![Data Flow Diagram](/doc/DATAFLOEDIAGRAMGITHUBSEARCH.png)
-```
+![Data Flow Diagram](doc/DATAFLOEDIAGRAMGITHUBSEARCH.png)
 
 ---
 
 ## ▶️ How to Run the Project
 
 ### Clone Repository
-
-```
+```bash
 git clone <repo-url>
 ```
 
 ### Run Application
-
-```
+```bash
 mvn spring-boot:run
 ```
 
 Server runs at:
-
-```
-http://localhost:8080
-```
-
 ---
 
 ## 🧪 Testing
-
 Project is structured to support unit testing using JUnit.
 
 Run tests:
-
-```
+```bash
 mvn test
 ```
 
 ---
 
 ## 📬 API Testing with Postman
-
 Use Postman to test endpoints:
-
 * POST → Create data
 * GET → Fetch data
 * PUT → Update data
@@ -177,7 +122,6 @@ Use Postman to test endpoints:
 ---
 
 ## 🎯 Learning Outcomes
-
 * Spring Boot architecture understanding
 * REST API development
 * Service layer logic building
@@ -188,8 +132,7 @@ Use Postman to test endpoints:
 ---
 
 ## 👨‍💻 Author
-
-**Siddhartha Vatsa**
+**Siddhartha Vatsa**  
 Backend Developer | Spring Boot | Android Developer
 
 ---
